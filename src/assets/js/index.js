@@ -28,6 +28,8 @@ $(document).ready(function() {
             $('.link').removeClass('disabled');
             $('.resume').removeClass('show');
             $('.portfolio').removeClass('show');
+            $('.contact').removeClass('show');
+            $('.about').removeClass('show');
         }, 700);
 
     });
@@ -36,6 +38,7 @@ $(document).ready(function() {
         $('.about').addClass('animationFadeInRight');
         $(this).addClass('active');
         $('.link').addClass('disabled');
+        $('.about').addClass('show');
         $('.home').addClass('animationFadeOutLeft');
         $('.resume').addClass('animationFadeOutLeft');
         $('.portfolio').addClass('animationFadeOutLeft');
@@ -59,6 +62,7 @@ $(document).ready(function() {
             $('.link').removeClass('disabled');
             $('.resume').removeClass('show');
             $('.portfolio').removeClass('show');
+            $('.contact').removeClass('show');
         }, 700);
     });
 
@@ -89,6 +93,8 @@ $(document).ready(function() {
         setTimeout(function() {
             $('.link').removeClass('disabled');
             $('.portfolio').removeClass('show');
+            $('.contact').removeClass('show');
+            $('.about').removeClass('show');
         }, 700);
 
     });
@@ -119,7 +125,8 @@ $(document).ready(function() {
         setTimeout(function() {
             $('.link').removeClass('disabled');
             $('.resume').removeClass('show');
-
+            $('.contact').removeClass('show');
+            $('.about').removeClass('show');
         }, 700);
     });
 
@@ -127,6 +134,7 @@ $(document).ready(function() {
         $('.contact').addClass('animationRotateIn180');
         $(this).addClass('active');
         $('.link').addClass('disabled');
+        $('.contact').addClass('show');
         $('.home').addClass('animationRotateOut180');
         $('.about').addClass('animationRotateOut180');
         $('.resume').addClass('animationRotateOut180');
@@ -149,7 +157,7 @@ $(document).ready(function() {
             $('.link').removeClass('disabled');
             $('.resume').removeClass('show');
             $('.portfolio').removeClass('show');
-
+            $('.about').removeClass('show');
         }, 700);
     });
 

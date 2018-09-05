@@ -208,6 +208,7 @@ canvas {
     width: 100%;
     height: 650px;
     opacity: 0;
+    display: none;
 }
 
 #about__inner {
@@ -477,10 +478,11 @@ figure {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 6;
+    z-index: 11;
     width: 100%;
     height: 650px;
     opacity: 0;
+    display: none;
 }
 
 /* .contact__info {
