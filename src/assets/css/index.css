@@ -325,7 +325,9 @@ canvas {
     border-bottom: 3px solid #e9b20e;
     width: 70px;
 }
-
+.experience {
+    margin-left: 40px;
+}
 .education {
     margin-left: 40px;
     background-color: rgba(255, 255, 255, 0.6);
@@ -458,6 +460,11 @@ canvas {
     margin-top: 20px;
 }
 
+.portfolio__lists__contents li {
+    list-style: none;
+    padding: 5px;
+}
+
 .portfolio__lists__contents .mix {
     box-sizing: border-box;
     margin-bottom: 20px;
@@ -473,6 +480,11 @@ figure {
 }
 
 
+.btnPortfolio {
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+}
 
 /* end css for portfolio */
 
@@ -732,4 +744,15 @@ figure {
 }
 .hiddenProjects {
     display: none;
+}
+
+
+
+
+.details {
+    position: absolute;
+    top: 10px;
+    left: 220px;
+    font-size: 20px;
+    font-weight: 500;
 }

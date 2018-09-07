@@ -157,7 +157,7 @@ $(document).ready(function() {
             $('.link').removeClass('disabled');
             $('.resume').removeClass('show');
             $('.portfolio').removeClass('show');
-            $('.about').removeClass('show');    
+            $('.about').removeClass('show');
         }, 700);
     });
 
@@ -251,4 +251,10 @@ $(document).ready(function() {
         $('#templates').removeClass('active');
     })
 
+
+
+    //Fancybox 
+    $(document).ready(function() {
+        $(".layout").fancybox();
+    });
 });
