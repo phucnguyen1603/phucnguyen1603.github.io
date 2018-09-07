@@ -24,7 +24,7 @@ body {
 #menu {
     text-align: center;
     padding-bottom: 8rem;
-    width: 340px;
+    width: 310px;
 
     background-image: url('../images/bg2.jpg');
     background-position: center center;
@@ -253,8 +253,13 @@ canvas {
     right: 0;
     text-align: right;
     z-index: -1;
+    font-size: 16px;
+    font-weight: 500;
 }
-
+.statement h6 {
+    font-size: 14px;
+    font-weight: bold;
+}
 .table__info {
     margin: 20px;
     font-weight: 500;
