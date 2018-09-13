@@ -24,6 +24,8 @@ $(document).ready(function() {
         $('#portfolio').removeClass('active');
         $('.contact').removeClass('animationRotateIn180');
         $('#contact').removeClass('active');
+        $('.menu-left-bar').removeClass('menu-res-show');
+
         setTimeout(function() {
             $('.link').removeClass('disabled');
             $('.resume').removeClass('show');
@@ -58,6 +60,7 @@ $(document).ready(function() {
         $('#portfolio').removeClass('active');
         $('.contact').removeClass('animationRotateIn180');
         $('#contact').removeClass('active');
+        $('.menu-left-bar').removeClass('menu-res-show');
         setTimeout(function() {
             $('.link').removeClass('disabled');
             $('.resume').removeClass('show');
@@ -90,6 +93,7 @@ $(document).ready(function() {
         $('#portfolio').removeClass('active')
         $('.contact').removeClass('animationRotateIn180');
         $('#contact').removeClass('active');
+        $('.menu-left-bar').removeClass('menu-res-show');
         setTimeout(function() {
             $('.link').removeClass('disabled');
             $('.portfolio').removeClass('show');
@@ -122,6 +126,7 @@ $(document).ready(function() {
         $('#about').removeClass('active');
         $('.contact').removeClass('animationRotateIn180');
         $('#contact').removeClass('active');
+        $('.menu-left-bar').removeClass('menu-res-show');
         setTimeout(function() {
             $('.link').removeClass('disabled');
             $('.resume').removeClass('show');
@@ -153,6 +158,7 @@ $(document).ready(function() {
         $('#resume').removeClass('active');
         $('.portfolio').removeClass('animationFadeInUp');
         $('#portfolio').removeClass('active');
+        $('.menu-left-bar').removeClass('menu-res-show');
         setTimeout(function() {
             $('.link').removeClass('disabled');
             $('.resume').removeClass('show');
@@ -257,4 +263,12 @@ $(document).ready(function() {
     $(document).ready(function() {
         $(".layout").fancybox();
     });
+
+
+
+    //Xử Lý sự kiên Responsive
+    $(".menu__responsive").click(function() {
+        // console.log("Hello");
+        $('.menu-left-bar').toggleClass('menu-res-show');
+    })
 });

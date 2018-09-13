@@ -17,6 +17,9 @@ body {
 
 
 
+.menu__responsive {
+    display: none;
+}
 
 
 /* css for menu */
@@ -31,6 +34,17 @@ body {
     -webkit-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.menu__res {
+    border: 1px solid black;
+}
+
+.menu__line {
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    margin-bottom: 10px;
 }
 
 .nav-info {
@@ -53,6 +67,7 @@ body {
 .nav-info .job {
     color: #7e7575;
 }
+
 
 
 
@@ -109,11 +124,13 @@ body {
 
 
 
+
 /* end css for menu */
 
 .content {
     position: relative;
 }
+
 
 
 
@@ -166,6 +183,7 @@ canvas {
 
 
 
+
 /*end css for home */
 
 .about,
@@ -198,6 +216,7 @@ canvas {
 
 
 
+
 /* css for about */
 
 .about {
@@ -206,7 +225,7 @@ canvas {
     left: 0;
     z-index: 9;
     width: 100%;
-    height: 650px;
+    /* height: 650px; */
     opacity: 0;
     display: none;
 }
@@ -230,7 +249,7 @@ canvas {
 }
 
 .anhDaiDien:hover img {
-    transform: rotate(-90deg) translate(-20px,-10px);
+    transform: rotate(-90deg) translate(-20px, -10px);
     box-shadow: -10px 10px 20px 0px grey;
 }
 
@@ -256,10 +275,12 @@ canvas {
     font-size: 16px;
     font-weight: 500;
 }
+
 .statement h6 {
     font-size: 14px;
     font-weight: bold;
 }
+
 .table__info {
     margin: 20px;
     font-weight: 500;
@@ -303,6 +324,7 @@ canvas {
 
 
 
+
 /* end css for about */
 
 
@@ -325,9 +347,11 @@ canvas {
     border-bottom: 3px solid #e9b20e;
     width: 70px;
 }
+
 .experience {
     margin-left: 40px;
 }
+
 .education {
     margin-left: 40px;
     background-color: rgba(255, 255, 255, 0.6);
@@ -416,6 +440,7 @@ canvas {
 
 
 
+
 /* end css for resume */
 
 
@@ -486,6 +511,7 @@ figure {
     left: 40px;
 }
 
+
 /* end css for portfolio */
 
 
@@ -497,10 +523,11 @@ figure {
     left: 0;
     z-index: 11;
     width: 100%;
-    height: 650px;
+    /* height: 650px; */
     opacity: 0;
     display: none;
 }
+
 
 /* .contact__info {
     margin: 50px 70px;
@@ -519,7 +546,7 @@ figure {
 .contact__info__item .fa {
     font-size: 3rem;
     margin: 30px 20px;
-    color:  #e9b20e;
+    color: #e9b20e;
 }
 
 .contact__info__item p {
@@ -540,10 +567,11 @@ figure {
     margin-top: 20px;
 }
 
-#map  iframe{
+#map iframe {
     width: 100%;
     height: 100%;
 }
+
 
 /* end css for contact */
 
@@ -604,6 +632,7 @@ figure {
     perspective: 300px;
     z-index: 1;
 }
+
 
 
 
@@ -726,6 +755,7 @@ figure {
 
 
 
+
 /* end css animation */
 
 
@@ -733,15 +763,19 @@ figure {
 
 
 /* css for show and hidden template and project */
+
 .showTemplates {
     display: block;
 }
+
 .hiddenTemplates {
     display: none;
 }
+
 .showProjects {
     display: block;
 }
+
 .hiddenProjects {
     display: none;
 }
@@ -755,4 +789,10 @@ figure {
     left: 220px;
     font-size: 20px;
     font-weight: 500;
+}
+
+
+iframe {
+    width: 380px;
+    height: 350px;
 }

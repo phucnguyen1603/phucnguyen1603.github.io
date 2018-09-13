@@ -1,0 +1,77 @@
+@media only screen and (max-width: 576px) {
+    .menu__responsive {
+        display: block;
+        position: absolute;
+        /* right: 0; */
+        z-index: 100;
+    }
+    .menu__line:last-child {
+        margin-bottom: 0px;
+    }
+    .menu-left-bar {
+        /* opacity: 0; */
+        margin-left: -400px;
+        transition: 0.5s;
+        z-index: 90;
+    }
+    .content-right {
+        padding-left: 0;
+    }
+    body {
+        background-color: lightblue;
+    }
+    .home__info {
+        font-size: 35px;
+        letter-spacing: 5px;
+    }
+
+    /* //responsive about */
+    .anhDaiDien img {
+        /* transform: ; */
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .statement {
+        position: static;
+        margin: 0 10px;
+        margin-top: 100px;
+        /* bottom: 0; */
+    }
+    .table__info tr td {
+        font-size: 14px;
+        width: 100px;
+    }
+    .table__info tr td .fa {
+        font-size: 15px;
+        width: 20px;
+    }
+
+    .title {
+        width: 150px;
+        margin-left: -45px;
+
+    }
+    .title h4 {
+        font-size: 20px;
+    }
+    .details {
+        left: 130px;
+        font-size: 17px;
+    }
+    #project__video {
+        width: 350px;
+        margin-left: -35px;
+        margin-bottom: 10px;
+    }
+	.contact__info__item {
+		margin-top: 20px;
+	}
+
+}
+
+
+/* Responsive */
+
+.menu-res-show {
+    margin-left: 0;
+}

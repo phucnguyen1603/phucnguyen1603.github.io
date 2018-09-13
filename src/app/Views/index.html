@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My CV</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../../../node_modules/bootstrap/dist/css/bootstrap.min.css">
@@ -10,12 +11,20 @@
     <link rel="stylesheet" type="text/css" href="../../../node_modules/fancybox/dist/css/jquery.fancybox.css">
     <link rel="stylesheet" type="text/css" href="../../assets/lib/imagehover.css">
     <link rel="stylesheet" type="text/css" href="../../assets/css/index.css">
+    <link rel="stylesheet" type="text/css" href="../../assets/css/responsive.css">
 </head>
 
 <body>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-3 p-0 fixed-top">
+            <div class="menu__responsive">
+                <div class="menu_res btn btn-light">
+                    <p class="menu__line"></p>
+                    <p class="menu__line"></p>
+                    <p class="menu__line"></p>
+                </div>
+            </div>
+            <div class="col-lg-3 p-0 fixed-top menu-left-bar">
                 <div id="menu">
                     <div class="nav-info">
                         <img src="../../assets/images/anh3.jpg" alt="ảnh đại diện">
@@ -43,8 +52,9 @@
                     <!-- end nav -->
                 </div>
             </div>
-            <div class="col-md-3"></div>
-            <div class="col-md-9 pr-0">
+            <!-- end menu__left -->
+            <div class="col-lg-3"></div>
+            <div class="col-lg-9 pr-0 content-right">
                 <div class="content">
                     <!-- begin home -->
                     <div class="home" id="particles-js">
@@ -55,7 +65,7 @@
                     <div class="about">
                         <div class="container-fluid">
                             <div class="row">
-                                <div class="col-12">
+                                <div class="col-lg-12">
                                     <div class="title">
                                         <h4>About Me</h4>
                                     </div>
@@ -63,23 +73,23 @@
                                 </div>
                             </div>
                             <div class="row" id="about__inner">
-                                <div class="col-6">
+                                <div class="col-lg-6">
                                     <h4 class="about__ttl">Objectives</h4>
                                     <div class="objective">
                                         <h3>I am a Front-end developer</h3>
                                         <p>Desires employment as a Front-end Developer. Versed in the production of high quality solutions for the company’s clients; knowleadge understanding of Modern HTML, JavaScript, CSS, and software development, plus a very strong ability to execute.</p>
                                     </div>
                                     <div class="row">
-                                        <div class="col-6 p-0 anhDaiDien">
+                                        <div class="col-lg-6 p-0 anhDaiDien">
                                             <img src="../../assets/images/anh3.jpg" alt="Anh dai dien">
                                         </div>
-                                        <div class="col-6 statement p-0">
+                                        <div class="col-lg-6 statement p-0">
                                             <p>Life is 10% what happens to you and 90% how you react to it</p>
                                             <h6>__ Charles R.Swindoll __</h6>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-lg-6">
                                     <h4 class="about__ttl">Infomation</h4>
                                     <div class="about__info">
                                         <table class="table__info">
@@ -136,7 +146,7 @@
                     <div class="resume">
                         <div class="container-fluid">
                             <div class="row">
-                                <div class="col-12">
+                                <div class="col-lg-12">
                                     <div class="title">
                                         <h4>Resume</h4>
                                     </div>
@@ -144,13 +154,13 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-12">
+                                <div class="col-lg-12 pl-0">
                                     <h3 class="resume__ttl">Experience</h3>
                                     <div class="experience row mt-5 my-0 py-0">
-                                        <div class="col-5 pl-0">
-                                            <iframe width="380px" height="350px" src="https://www.youtube.com/embed/ustlFh-36_0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                        <div class="col-lg-5 pl-0">
+                                            <iframe id="project__video"  src="https://www.youtube.com/embed/ustlFh-36_0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                                         </div>
-                                        <div class="col-7">
+                                        <div class="col-lg-7">
                                             <h4 class="text-success"> E-learning Full Javascript Ajax Management Project</h4>
                                             <div class="experience__item">
                                                 <h6>What I Learn</h6>
@@ -186,7 +196,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-lg-6 pl-0">
                                     <h3 class="resume__ttl">Education</h3>
                                     <div class="education">
                                         <div class="education__item">
@@ -225,7 +235,7 @@
                                     </div>
                                     <!-- end 1 item education -->
                                 </div>
-                                <div class="col-6">
+                                <div class="col-lg-6">
                                     <h3 class="resume__ttl">Skills</h3>
                                     <!-- begin resume__skill -->
                                     <div class="resume__skill">
@@ -293,7 +303,7 @@
                                             <!-- end skill__item -->
                                             <!-- begin skill__item -->
                                             <div class="skill__item">
-                                                <p>Angular 5</p>
+                                                <p>Angular js/ Angular 4</p>
                                                 <p>60%</p>
                                                 <div class="skill">
                                                     <div class="skill__level" style='width:60%'>
@@ -303,6 +313,16 @@
                                             <!-- end skill__item -->
                                             <div class="skill__item">
                                                 <p>Git/Github</p>
+                                                <p>80%</p>
+                                                <div class="skill">
+                                                    <div class="skill__level" style='width:80%'>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- end skill__item -->
+                                            <!-- end skill__item -->
+                                            <div class="skill__item">
+                                                <p>Sass</p>
                                                 <p>80%</p>
                                                 <div class="skill">
                                                     <div class="skill__level" style='width:80%'>
@@ -337,12 +357,12 @@
                     <div class="portfolio">
                         <div class="container-fluid">
                             <div class="row">
-                                <div class="col-12">
+                                <div class="col-lg-12">
                                     <div class="title">
                                         <h4>Portfolio</h4></div>
-                                        <span class="details">My projects</span>
+                                    <span class="details">My projects</span>
                                 </div>
-                                <div class="col-12 portfolio__lists">
+                                <div class="col-lg-12 portfolio__lists">
                                     <div class="portfolio__lists__menu">
                                         <ul class="nav justify-content-end">
                                             <li class="nav-item disabled " data-fillter="all" id="all">
@@ -359,7 +379,7 @@
                                     <div class="portfolio__lists__contents">
                                         <div class="container">
                                             <div class="row">
-                                                <div class="col-6 templates">
+                                                <div class="col-lg-6 templates">
                                                     <figure class="imghvr-flip-vert">
                                                         <img src="../../assets/images/layout1/1.png" alt="">
                                                         <figcaption>
@@ -382,7 +402,7 @@
                                                         </figcaption>
                                                     </figure>
                                                 </div>
-                                                <div class="col-6 templates">
+                                                <div class="col-lg-6 templates">
                                                     <figure class="imghvr-flip-vert">
                                                         <img src="../../assets/images/layout2/1.png" alt="">
                                                         <figcaption>
@@ -405,7 +425,7 @@
                                                         </figcaption>
                                                     </figure>
                                                 </div>
-                                                <div class="col-6 templates">
+                                                <div class="col-lg-6 templates">
                                                     <figure class="imghvr-flip-vert">
                                                         <img src="../../assets/images/layout2/bootstrap1.png" alt="">
                                                         <figcaption>
@@ -427,7 +447,7 @@
                                                         </figcaption>
                                                     </figure>
                                                 </div>
-                                                <div class="col-6 project">
+                                                <div class="col-lg-6 project">
                                                     <figure class="imghvr-flip-vert">
                                                         <img src="../../assets/images/layout2/uber.png" alt="">
                                                         <figcaption>
@@ -449,7 +469,7 @@
                                                         </figcaption>
                                                     </figure>
                                                 </div>
-                                                <div class="col-6 project">
+                                                <div class="col-lg-6 project">
                                                     <figure class="imghvr-flip-vert">
                                                         <img src="../../assets/images/Project1/home.png" alt="">
                                                         <figcaption>
@@ -486,35 +506,35 @@
                     <div class="contact">
                         <div class="container-fluid">
                             <div class="row">
-                                <div class="col-12">
+                                <div class="col-lg-12">
                                     <div class="title">
                                         <h4>Contact</h4>
                                     </div>
                                     <span class="details">Get in touch with me</span>
                                 </div>
                                 <!-- <div class="contact__info"> -->
-                                <div class="col-4">
+                                <div class="col-lg-4">
                                     <div class="contact__info__item">
                                         <i class="fa fa-phone"></i>
                                         <p>(+84) 1644645682</p>
                                     </div>
                                     <!-- end contact__info__item -->
                                 </div>
-                                <div class="col-4">
+                                <div class="col-lg-4">
                                     <div class="contact__info__item">
                                         <i class="fa fa-map-marker"></i>
                                         <p>District 12 - HoChiMinh City</p>
                                     </div>
                                     <!-- end contact__info__item -->
                                 </div>
-                                <div class="col-4">
+                                <div class="col-lg-4">
                                     <div class="contact__info__item">
                                         <i class="fa fa-envelope"></i>
                                         <p>phucpnh1603@gmail.com</p>
                                     </div>
                                     <!-- end contact__info__item -->
                                 </div>
-                                <div class="col-12">
+                                <div class="col-lg-12">
                                     <div id="map">
                                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6590.09017439151!2d106.69144633458318!3d10.850205624848691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752846cfdde52d%3A0xf6b2710e4ffeb1a6!2zU2VudHVyaWEgVsaw4budbiBMw6Bp!5e0!3m2!1svi!2s!4v1534159875946" frameborder="0" style="border:0" allowfullscreen></iframe>
                                     </div>
