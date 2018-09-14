@@ -36,9 +36,9 @@ body {
     background-repeat: no-repeat;
 }
 
-.menu__res {
+/* .menu__res {
     border: 1px solid black;
-}
+} */
 
 .menu__line {
     width: 30px;
@@ -46,7 +46,20 @@ body {
     background-color: black;
     margin-bottom: 10px;
 }
-
+/* .menu__line:first-child {
+    transform: rotate(-45deg);
+    transform-origin: right;
+    /* width: 35px; */
+/* }
+.menu__line:nth-child(2) {
+    display: none;
+    visibility: hidden;
+} */
+/* .menu__line:last-child {
+    transform: rotate(45deg);
+    transform-origin: right;
+    /* width: 35px; */
+/* }  */
 .nav-info {
     padding: 1.5rem 0;
 }
@@ -149,6 +162,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 650px;
+    /* height: 100%; */
     width: 100%;
     position: absolute;
     top: 0;
@@ -169,6 +183,7 @@ body {
     font-weight: bold;
     font-size: 3.5rem;
     letter-spacing: 0.5rem;
+    padding: 5px;
 }
 
 .home__info b {

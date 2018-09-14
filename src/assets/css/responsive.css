@@ -1,18 +1,43 @@
 @media only screen and (max-width: 576px) {
+    #menu {
+        background-image: none;
+        background-color: rgba(36, 37, 38, 0.76);
+        width: 100%;
+        color: #fff;
+    }
+    #menu .nav-item,
+    #menu .nav-item:last-child {
+        border: none;
+    }
+    #menu .nav-link {
+        color: white;
+        font-size: 25px;
+        letter-spacing: 2px;
+    }
     .menu__responsive {
         display: block;
         position: absolute;
         /* right: 0; */
         z-index: 100;
+        margin: 10px;
     }
     .menu__line:last-child {
         margin-bottom: 0px;
     }
     .menu-left-bar {
         /* opacity: 0; */
-        margin-left: -400px;
-        transition: 0.5s;
+        /* margin-left: -400px; */
+        transform: translateY(-400px) scale(0);
+        /* transform: scale(0); */
+        transition: 0.6s;
         z-index: 90;
+        opacity: 0;
+    }
+    .menu-res-show {
+        /* margin-left: 0; */
+        transform: translateY(0) scale(1);
+        opacity: 1;
+        /* transform: scale(1); */
     }
     .content-right {
         padding-left: 0;
@@ -49,7 +74,6 @@
     .title {
         width: 150px;
         margin-left: -45px;
-
     }
     .title h4 {
         font-size: 20px;
@@ -63,15 +87,129 @@
         margin-left: -35px;
         margin-bottom: 10px;
     }
-	.contact__info__item {
-		margin-top: 20px;
-	}
-
+    .contact__info__item {
+        margin-top: 20px;
+    }
 }
 
 
-/* Responsive */
 
-.menu-res-show {
-    margin-left: 0;
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .home {
+        height: 1024px;
+    }
+    #menu {
+        background-image: none;
+        background-color: rgba(36, 37, 38, 0.76);
+        width: 100%;
+        color: #fff;
+        height: 1024px;
+        padding-top: 100px;
+    }
+    #menu .nav-info img {
+
+        width: 160px;
+
+        height: 160px;
+    }
+    .nav-info .name {
+        font-size: 40px;
+    }
+    .nav-info .job {
+
+        font-size: 20px;
+    }
+    #menu .nav-item,
+    #menu .nav-item:last-child {
+        border: none;
+    }
+    #menu .nav-link {
+        color: white;
+        font-size: 35px;
+        letter-spacing: 5px;
+        padding-bottom: 30px;
+    }
+    .menu__responsive {
+        display: block;
+        position: absolute;
+        /* right: 0; */
+        z-index: 100;
+        margin: 10px;
+    }
+    .menu__line:last-child {
+        margin-bottom: 0px;
+    }
+    .menu-left-bar {
+        /* opacity: 0; */
+        /* margin-left: -400px; */
+        transform: translateY(-400px) scale(0);
+        /* transform: scale(0); */
+        transition: 0.6s;
+        z-index: 90;
+        opacity: 0;
+    }
+    .menu-res-show {
+        /* margin-left: 0; */
+        transform: translateY(0) scale(1);
+        opacity: 1;
+        /* transform: scale(1); */
+    }
+    .content-right {
+        padding-left: 0;
+    }
+    body {
+        background-color: lightblue;
+    }
+    .home__info {
+        font-size: 35px;
+        letter-spacing: 5px;
+    }
+
+    /* //responsive about */
+    .anhDaiDien img {
+        /* transform: ; */
+        margin-left: 0;
+        margin-top: 60px;
+        /* height: 254px; */
+    }
+    .statement {
+        position: static;
+        margin: 0 50px;
+        margin-top: 147px;
+        /* bottom: 0; */
+        font-size: 20px;
+    }
+    .table__info {
+        width: 100%;
+    }
+    .table__info tr td {
+        font-size: 20px;
+        /* width: 139px; */
+    }
+    .table__info tr td .fa {
+        font-size: 25px;
+        width: 20px;
+        margin-right: 20px;
+    }
+
+    .title {
+        width: 200px;
+        margin-left: -20px;
+    }
+    .title h4 {
+        font-size: 25px;
+    }
+    .details {
+        left: 220px;
+        font-size: 20px;
+    }
+    #project__video {
+        width: 600px;
+        margin-left: 40px;
+        margin-bottom: 10px;
+        height: 400px;
+    }
+    .contact__info__item {
+        margin-top: 20px;
+    }
 }

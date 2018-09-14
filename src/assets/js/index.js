@@ -25,6 +25,7 @@ $(document).ready(function() {
         $('.contact').removeClass('animationRotateIn180');
         $('#contact').removeClass('active');
         $('.menu-left-bar').removeClass('menu-res-show');
+        $('#nav-icon2').removeClass('open');
 
         setTimeout(function() {
             $('.link').removeClass('disabled');
@@ -61,6 +62,7 @@ $(document).ready(function() {
         $('.contact').removeClass('animationRotateIn180');
         $('#contact').removeClass('active');
         $('.menu-left-bar').removeClass('menu-res-show');
+        $('#nav-icon2').removeClass('open');
         setTimeout(function() {
             $('.link').removeClass('disabled');
             $('.resume').removeClass('show');
@@ -94,6 +96,7 @@ $(document).ready(function() {
         $('.contact').removeClass('animationRotateIn180');
         $('#contact').removeClass('active');
         $('.menu-left-bar').removeClass('menu-res-show');
+        $('#nav-icon2').removeClass('open');
         setTimeout(function() {
             $('.link').removeClass('disabled');
             $('.portfolio').removeClass('show');
@@ -127,6 +130,7 @@ $(document).ready(function() {
         $('.contact').removeClass('animationRotateIn180');
         $('#contact').removeClass('active');
         $('.menu-left-bar').removeClass('menu-res-show');
+        $('#nav-icon2').removeClass('open');
         setTimeout(function() {
             $('.link').removeClass('disabled');
             $('.resume').removeClass('show');
@@ -159,6 +163,7 @@ $(document).ready(function() {
         $('.portfolio').removeClass('animationFadeInUp');
         $('#portfolio').removeClass('active');
         $('.menu-left-bar').removeClass('menu-res-show');
+        $('#nav-icon2').removeClass('open');
         setTimeout(function() {
             $('.link').removeClass('disabled');
             $('.resume').removeClass('show');
@@ -271,4 +276,7 @@ $(document).ready(function() {
         // console.log("Hello");
         $('.menu-left-bar').toggleClass('menu-res-show');
     })
+    $('#nav-icon2').click(function() {
+        $(this).toggleClass('open');
+    });
 });
