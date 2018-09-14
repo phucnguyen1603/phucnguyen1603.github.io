@@ -520,10 +520,13 @@ figure {
 }
 
 
-.btnPortfolio {
+.btnPortfolio, .btnSourceCode {
     position: absolute;
     bottom: 20px;
     left: 40px;
+}
+.btnSourceCode {
+    left: 150px;
 }
 
 

@@ -90,6 +90,13 @@
     .contact__info__item {
         margin-top: 20px;
     }
+    .portfolio__lists__menu {
+    	text-align: center;
+    }
+    .templates {
+    width: 500px;
+    /* height: 393px; */
+}
 }
 
 
