@@ -22,6 +22,7 @@ body {
 }
 
 
+
 /* css for menu */
 
 #menu {
@@ -36,6 +37,7 @@ body {
     background-repeat: no-repeat;
 }
 
+
 /* .menu__res {
     border: 1px solid black;
 } */
@@ -46,20 +48,29 @@ body {
     background-color: black;
     margin-bottom: 10px;
 }
+
+
 /* .menu__line:first-child {
     transform: rotate(-45deg);
     transform-origin: right;
     /* width: 35px; */
+
+
 /* }
 .menu__line:nth-child(2) {
     display: none;
     visibility: hidden;
 } */
+
+
 /* .menu__line:last-child {
     transform: rotate(45deg);
     transform-origin: right;
     /* width: 35px; */
+
+
 /* }  */
+
 .nav-info {
     padding: 1.5rem 0;
 }
@@ -80,6 +91,7 @@ body {
 .nav-info .job {
     color: #7e7575;
 }
+
 
 
 
@@ -138,11 +150,13 @@ body {
 
 
 
+
 /* end css for menu */
 
 .content {
     position: relative;
 }
+
 
 
 
@@ -199,6 +213,7 @@ canvas {
 
 
 
+
 /*end css for home */
 
 .about,
@@ -226,6 +241,7 @@ canvas {
     box-shadow: 3px 7px 20px 5px grey;
     border-radius: 5px;
 }
+
 
 
 
@@ -334,6 +350,7 @@ canvas {
     background-color: transparent;
     color: #44B272;
 }
+
 
 
 
@@ -456,6 +473,7 @@ canvas {
 
 
 
+
 /* end css for resume */
 
 
@@ -520,17 +538,21 @@ figure {
 }
 
 
-.btnPortfolio, .btnSourceCode {
+.btnPortfolio,
+.btnSourceCode {
     position: absolute;
     bottom: 20px;
     left: 40px;
-}
-.btnSourceCode {
-    left: 150px;
     top: 340px;
-    width: 130px;
+    width: 120px;
     height: 40px;
 }
+
+.btnSourceCode {
+    left: 170px;
+}
+
+
 /* end css for portfolio */
 
 
@@ -546,6 +568,7 @@ figure {
     opacity: 0;
     display: none;
 }
+
 
 
 /* .contact__info {
@@ -590,6 +613,7 @@ figure {
     width: 100%;
     height: 100%;
 }
+
 
 
 /* end css for contact */
@@ -651,6 +675,7 @@ figure {
     perspective: 300px;
     z-index: 1;
 }
+
 
 
 
@@ -771,6 +796,7 @@ figure {
         opacity: 0;
     }
 }
+
 
 
 
