@@ -527,9 +527,10 @@ figure {
 }
 .btnSourceCode {
     left: 150px;
+    top: 340px;
+    width: 130px;
+    height: 40px;
 }
-
-
 /* end css for portfolio */
 
 
