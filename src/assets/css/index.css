@@ -9,19 +9,9 @@ body {
     box-sizing: border-box;
 }
 
-
-
-
-
-
-
-
-
 .menu__responsive {
     display: none;
 }
-
-
 
 /* css for menu */
 
@@ -837,7 +827,7 @@ figure {
 }
 
 
-iframe {
+#project__video {
     width: 380px;
     height: 350px;
 }
